@@ -34,7 +34,7 @@ export default function Home() {
     return (
         <div>
             <div className="searchDiv">
-            <input className="input" type="text" id="searchInput" onChange={(e) => handleChange(e) } />
+            <input className="input" placeholder="Digite o termo da pesquisa" type="text" id="searchInput" onChange={(e) => handleChange(e) } />
             <button className="btn" id="searchBtn" onClick={ handleClick }>Pesquisar</button>
             </div>
             <div className="results">
